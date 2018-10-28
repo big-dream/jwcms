@@ -1,0 +1,34 @@
+{
+  "name": "big-dream/jwcms",
+  "description": "jwcms",
+  "version": "0.0.1",
+  "type": "project",
+  "keywords": [
+    "cms"
+  ],
+  "homepage": "https://jwcms.ll00.cn/",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "jwj",
+      "email": "86849180@qq.com",
+      "homepage": "https://blog.ll00.cn",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "86849180@qq.com"
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "topthink/framework": "~5.1.0"
+  },
+  "suggest": {
+    "topthink/think-captcha": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "application"
+    }
+  }
+}
